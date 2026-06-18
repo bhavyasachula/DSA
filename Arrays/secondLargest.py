@@ -1,5 +1,5 @@
 # Find the Second Largest Element from the Array
-
+# Brute Force
 a = [1,2,4,7,7,5]
 
 largest = 0
