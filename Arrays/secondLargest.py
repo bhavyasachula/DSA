@@ -9,7 +9,7 @@ for i in a:
         largest = i
         
 for i in a:
-    if(i>secondLargest and i!=largest):
-        secondLargest = i
+    if(i>secondLargest and i!=largest): # 5>4 and 5!=7:False sl:4
+        secondLargest = i #sl=5 
 
 print("Second largest Element in Array :",secondLargest) 
