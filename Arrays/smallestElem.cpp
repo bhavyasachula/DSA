@@ -20,6 +20,6 @@ int SmallestElem(vector<int> arr,int n){
 
 int main(){
     
-    int smallestElement = SmallestElem(arr);
+    int smallestElement = SmallestElem(arr,n);
     cout<<"Smallest Element:"<< smallestElement;
 }
