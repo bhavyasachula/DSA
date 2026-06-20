@@ -15,5 +15,5 @@ int isUniqueBruteForce(vector<int> arr,int n){
 
 int main(){
  // brute for approach   
-    cout<<"Unique Elements in an Array:"<<isUniqueBruteForce(arr);
+    cout<<"Unique Elements in an Array:"<<isUniqueBruteForce(arr,n);
 }
