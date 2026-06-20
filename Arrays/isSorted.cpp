@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-int n = ;
+int n = arr.size();
 int isSortedAsc(vector<int> arr,){
     for(int i=1;i<;i++){ 
         if(arr[i]>=arr[i-1]){   
