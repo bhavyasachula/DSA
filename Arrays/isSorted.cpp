@@ -3,7 +3,7 @@
 using namespace std;
 
 int n = arr.size();
-int isSortedAsc(vector<int> arr,){
+int isSortedAsc(vector<int> arr,int n){
     for(int i=1;i<;i++){ 
         if(arr[i]>=arr[i-1]){   
         }
