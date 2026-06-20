@@ -2,8 +2,9 @@
 #include <vector>
 using namespace std;
 
-int isSortedAsc(vector<int> arr){
-    for(int i=1;i<arr.size();i++){
+int n = ;
+int isSortedAsc(vector<int> arr,){
+    for(int i=1;i<;i++){ 
         if(arr[i]>=arr[i-1]){   
         }
         else{
