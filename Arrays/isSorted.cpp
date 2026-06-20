@@ -17,6 +17,6 @@ int isSortedAsc(vector<int> arr,int n){
 
 int main(){
 
-    int isSorted = isSortedAsc(arr);
+    int isSorted = isSortedAsc(arr,n);
     cout<<"1) 1 means sorted \n2) 0 means unsorted \n\nAnswer:" << isSorted;
 }
