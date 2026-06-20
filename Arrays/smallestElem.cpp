@@ -3,12 +3,14 @@
 using namespace std;
 
 //Find the Smallest Element from the Array
+vector<int> arr = {0,1,2,4,5,7,4};
+int n=arr.size();
 
-int SmallestElem(vector<int> arr){
+int SmallestElem(vector<int> arr,int n){
     // {0,1,2,4,5,7,4}
     //{4,5,7,2,1}
     int smallest = arr[0];
-    for(int i = 0; i < arr.size(); i++ ){
+    for(int i = 0; i < n; i++ ){
         if(arr[i]<smallest){  
             smallest = arr[i];
         }
@@ -17,7 +19,7 @@ int SmallestElem(vector<int> arr){
 }
 
 int main(){
-    vector<int> a = {0,1,2,4,5,7,4};
-    int smallestElement = SmallestElem(a);
+    
+    int smallestElement = SmallestElem(arr);
     cout<<"Smallest Element:"<< smallestElement;
 }
