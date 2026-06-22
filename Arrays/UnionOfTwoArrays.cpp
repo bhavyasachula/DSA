@@ -20,8 +20,16 @@ vector<int> UnionTwoArrays(vector<int> arr1,vector<int> arr2){
         st.insert(arr2[j]);
     }
     vector<int> unionn;
+
     for(int x: st){
         unionn.push_back(x);
+    }
+    return unionn;
+}
+
+int main(){
+    for(int x : UnionTwoArrays(arr1,arr2)){
+        cout<<x<<" ";
     }
 }
 
