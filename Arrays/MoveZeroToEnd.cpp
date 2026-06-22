@@ -14,7 +14,7 @@ vector<int> moveZeroTEnd(vector<int> arr,int n){
     }
     int nz = temp.size();
     for(int i = nz;i<n;i++){
-        temp.push_back(0);
+        temp.push_back(0); // putting all zeros at remaining empty spaces of an array 
     }
     return temp;
 }
