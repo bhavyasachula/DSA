@@ -23,7 +23,7 @@ vector<int> optimalUnionofTwoArrays(vector<int> a,vector<int> b){
         }
         else{
             if(b[j] <= a[i]){
-                if(unionnArr.size()==0 || unionnArr.back() != b[j]){
+                if(unionnArr.size() == 0 || unionnArr.back() != b[j]){
                     unionnArr.push_back(b[j]);
                 }
                 j++;
