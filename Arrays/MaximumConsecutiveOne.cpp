@@ -8,21 +8,22 @@ vector<int> arr = {1,1,0,1,1,1,0,1,1};
 
 int FindConsecutive1s(vector<int> arr){
     int counter = 0;
-    int max = 0;
+    int maxi = 0;
+    
     for(int i = 0 ; i<arr.size(); i++){
         if(arr[i] != 0){
             counter++;
-            if(max<counter){
-                max=counter;
+            if(maxi<counter){
+                maxi=counter;
             } 
         }
         else{
             counter=0;
         }
     }
-    return max;
+    return maxi;
 }
 
 int main(){
-    cout << FindConsecutive1s(arr);
+    cout <<"Maximum Consecutive 1's in Arrays is: "<< FindConsecutive1s(arr);
 }
