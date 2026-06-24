@@ -7,4 +7,7 @@ int n = arr.size();
 int longestSubArrayWithSumK(vector<int> arr,int n ){
     int left = 0; //left pointer 
     int right = 0; // right pointer
+    while(right<n){
+        
+    }
 }
