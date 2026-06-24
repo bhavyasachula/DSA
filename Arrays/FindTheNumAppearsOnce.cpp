@@ -3,7 +3,10 @@
 using namespace std;
 //Find Num Appearing Once In Array And Other Twice
 
-//Note: the array should have only elements should be in pair of two elements 
+//Note: 
+/* the array should have only elements should be in pair or should 
+ be in (power of 2) of two elements*/
+
 vector<int> arr = {1,1,2,4,4,4,4,5,5};
 int n=arr.size();
 
