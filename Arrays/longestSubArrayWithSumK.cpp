@@ -1,3 +1,5 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+
+vector<int> arr = {1,2,3,1,1,1,1,3,3};
