@@ -22,5 +22,6 @@ pair<int,int> twoSums(vector<int> arr ,int Target, int n){
 }
 
 int main(){
+   pair<int,int> ans = twoSums(arr,Target,n);
     
 }
