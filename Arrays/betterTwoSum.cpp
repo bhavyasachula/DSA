@@ -7,7 +7,7 @@ vector<int> arr = {6,2,4,8,11};
 int n=arr.size();
 int Target = 14;
 
-pair<int,int> twoSums(vector<int> arr ,int Target, int n){
+vector<int> twoSums(vector<int> arr ,int Target, int n){
     map<int,int> mpp;
 
     for(int i=0; i<n ; i++ ){
@@ -22,6 +22,6 @@ pair<int,int> twoSums(vector<int> arr ,int Target, int n){
 }
 
 int main(){
-   pair<int,int> ans = twoSums(arr,Target,n);
-    
+   vector<int> ans = twoSums(arr,Target,n);
+    cout<<"",
 }
