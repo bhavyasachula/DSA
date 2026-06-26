@@ -5,12 +5,16 @@ using namespace std;
 
 vector<int> arr = {6,2,4,8,11};
 int n=arr.size();
-int twoSum = 14;
+int Target = 14;
 
-pair<int,int> twoSums(vector<int> arr , int n){
+pair<int,int> twoSums(vector<int> arr ,int Target, int n){
     map<int,int> mpp;
 
-    for(int i =0 ;i<n;i++){
-        
+    for(int i=0; i<n ; i++ ){
+        int num = arr[i];
+        int moreNeeded  = Target - num;
+        if(mpp.find(moreNeeded) != mpp.end()){
+            return {mpp[moreNeeded],i};
+        }
     }
 }
