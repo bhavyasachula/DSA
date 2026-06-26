@@ -8,5 +8,9 @@ int n=arr.size();
 int twoSum = 14;
 
 pair<int,int> twoSums(vector<int> arr , int n){
-    map<int,int>
+    map<int,int> mpp;
+
+    for(int i =0 ;i<n;i++){
+        
+    }
 }
