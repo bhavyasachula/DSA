@@ -16,5 +16,11 @@ pair<int,int> twoSums(vector<int> arr ,int Target, int n){
         if(mpp.find(moreNeeded) != mpp.end()){
             return {mpp[moreNeeded],i};
         }
+        mpp[num] = i;
     }
+    return {-1,-1};
+}
+
+int main(){
+    
 }
