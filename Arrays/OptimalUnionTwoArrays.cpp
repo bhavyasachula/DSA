@@ -47,7 +47,7 @@ vector<int> optimalUnionofTwoArrays(vector<int> a,vector<int> b){
     }
 }
 
-     return unionnArr;
+    return unionnArr;
 }
 
 int main(){

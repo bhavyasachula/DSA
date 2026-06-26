@@ -15,11 +15,11 @@ vector<int> UnionTwoArrays(vector<int> arr1,vector<int> arr2){
     for(int i=0;i<n1;i++){  
         st.insert(arr1[i]);
         /*using insert method to insert into the set 
-         datastructure for only the unique elements*/ 
+         datastructure for only the unique elements of arr1*/ 
     }
 
     for(int j=0; j<n2 ; j++){
-        st.insert(arr2[j]); /*Checking other unique elements from second array*/  
+        st.insert(arr2[j]); /*Checking other unique elements from second array for arr2*/  
     }
 
     vector<int> unionn; /*Declared a final combined union array*/ 

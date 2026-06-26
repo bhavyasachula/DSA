@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-  vector <int> arr = {3, 3, 0, 99, -40};
+vector <int> arr = {3, 3, 0, 99, -40};
 int n = arr.size();
 int isSortedAsc(vector<int> arr,int n){
     for(int i=1;i<n;i++){ 
