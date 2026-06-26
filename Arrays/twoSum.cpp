@@ -10,7 +10,7 @@ pair<int,int> twoSums(vector<int> arr , int n){
     for(int i=0 ; i < n ; i++){
         for(int j=i ; j < n ; j++ ){
 
-            if(arr[i] + arr[j+1] == twoSum){
+            if(arr[i] + arr[j] == twoSum){
                 return {i,j+1};
             }  
        }
