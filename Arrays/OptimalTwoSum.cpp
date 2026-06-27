@@ -9,23 +9,23 @@ int n =  arr.size();
 int target = 14;
 string TwoSum(vector<int> arr , int n ,int target){
     int left=0;
-    int right=0;
-    
+    int right=n-1;
     sort(arr.begin(),arr.end());
    
-    while(left<right){
+    while(left < right){
         int sum = arr[left] + arr[right];
+
         if(sum == target){
             return "Target is Present";
         }
         else if(sum < target){
             left++;
         }
-        else right--;
+        else {right--;}
 
     }
     return "TARGEt is not present";
 }
 int main(){
-    cout<<" "<<TwoSum(arr,n,target);
+    cout<<TwoSum(arr,n,target);
 }
