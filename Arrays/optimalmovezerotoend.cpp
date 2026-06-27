@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-vector<int> arr = {0,645,0,0,78,55,221};
+vector<int> arr = {0,0,0,0,0,0,41,121,142,41,645,0,0,78,55,221};
 
 int n =  arr.size();
 
@@ -14,7 +14,7 @@ vector<int> OptimalMoveZeroToEnd(vector<int> arr, int n){
          if(arr[reader]!=0){
             int temp = arr[writer];
             arr[writer] = arr[reader];
-            arr[writer] = temp;  
+            arr[reader] = temp;  
             writer++;
          } 
     }
@@ -23,5 +23,8 @@ vector<int> OptimalMoveZeroToEnd(vector<int> arr, int n){
 
 int main(){
 
+    for(int k:OptimalMoveZeroToEnd(arr,n)){
+        cout<<" "<<k;
+    }
     
 }
