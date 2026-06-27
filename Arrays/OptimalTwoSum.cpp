@@ -24,7 +24,8 @@ string TwoSum(vector<int> arr , int n,int target){
         else right--;
 
     }
+    return "TARGEt is not present";
 }
 int main(){
-
+    cout<<" "<<TwoSum(arr,n,target);
 }
