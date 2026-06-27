@@ -3,7 +3,10 @@
 #include<algorithm>
 using namespace std;
 
-//Optimal
+//Optimal : Two pointer approach ;
+// sort the array using sort function using alogrithm header
+// left pointer starts from the 0th index and right pointer starts from the last index (n-1)
+// checks if left crosses right pointer 
 vector<int> arr = {2,6,5,8,11};
 int n =  arr.size();
 int target = 14;
