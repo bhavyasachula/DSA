@@ -23,7 +23,7 @@ vector<int> twoSums(vector<int> arr ,int Target, int n){
 
 int main(){
    vector<int> ans = 
-   for(int ans : twoSums(arr,Target,n);){
-    cout<<" index with ans are",
+   for(int ans : twoSums(arr,Target,n)){
+    cout<<" index with ans are";
    }
 }
