@@ -9,12 +9,12 @@ using namespace std;
     return the element which appears n/2 times from the array
 
     */
-
-
 vector<int> arr = {1,1,1,2,2,1};
 int n=arr.size();
+
 int MajorityElement(vector<int> arr ,int n){
-     int cnt = 0;
+
+    int cnt = 0;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
@@ -26,5 +26,5 @@ int MajorityElement(vector<int> arr ,int n){
 }
 
 int main(){
-
+    cout<<""<<MajorityElement(arr,n);                 
 }
