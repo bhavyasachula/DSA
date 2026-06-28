@@ -26,5 +26,5 @@ int MajorityElement(vector<int> arr ,int n){
 }
 
 int main(){
-    cout<<""<<MajorityElement(arr,n);                 
+    cout<<"Majority Element is:"<<MajorityElement(arr,n);                 
 }
