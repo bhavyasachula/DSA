@@ -38,8 +38,8 @@ int OptimalMajorityElement(vector<int> arr,int n){
         }
     }
     if(cnt1>(n/2)) return el;
+    else return -1;
 }
-
 
 //{1,2,3,1,1,1,1,3,3}
 int main(){
