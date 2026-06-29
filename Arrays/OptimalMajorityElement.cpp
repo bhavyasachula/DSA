@@ -7,7 +7,7 @@ int n = arr.size();
 
 // Moore Voting algorithm
 
-vector<int> OptimalMajorityElement(vector<int> arr,int n){
+pair<int,int> OptimalMajorityElement(vector<int> arr,int n){
     int el=0;
     int cnt=0;
     for(int i=0;i<arr.size();i++){
@@ -22,9 +22,13 @@ vector<int> OptimalMajorityElement(vector<int> arr,int n){
             cnt--;
         }
     }
+    return {el,cnt};
 }
 
 //{1,2,3,1,1,1,1,3,3}
 int main(){
+    pair<int,int> x = OptimalMajorityElement(arr,n);
+    cout<<"Element="<<x.first <<"cnt="<<x.second<<"\n";
+ 
     
 }
