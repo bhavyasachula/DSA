@@ -34,7 +34,7 @@ int OptimalMajorityElement(vector<int> arr,int n){
     int cnt1=0;
     for(int j=0;j<n;j++){
         if(el==arr[j]){
-            cnt++;
+            cnt1++;
         }
     }
     if(cnt1>(n/2)) return el;
@@ -44,7 +44,5 @@ int OptimalMajorityElement(vector<int> arr,int n){
 //{1,2,3,1,1,1,1,3,3}
 int main(){
     int x = OptimalMajorityElement(arr,n);
-    cout<<"Majority Element"<<
- 
-    
+    cout<<"Majority Element :"<<x;
 }
