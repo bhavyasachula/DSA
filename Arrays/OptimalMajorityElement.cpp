@@ -14,10 +14,10 @@ int n = arr.size();
     */
 // Moore Voting algorithm
 // the goal was this (N/2)
-pair<int,int> OptimalMajorityElement(vector<int> arr,int n){
+int OptimalMajorityElement(vector<int> arr,int n){
     int el=0;
     int cnt=0;
-    for(int i=0;i<arr.size();i++){
+    for(int i=0;i<n;i++){
         if(cnt==0){
             cnt=1;
             el=arr[i];
@@ -29,19 +29,22 @@ pair<int,int> OptimalMajorityElement(vector<int> arr,int n){
             cnt--;
         }
     }
-    return {el,cnt};
+  
     //why this loop for checking the majority element 
     int cnt1=0;
     for(int j=0;j<n;j++){
-    
+        if(el==arr[j]){
+            cnt++;
+        }
     }
+    if(cnt1>(n/2)) return el;
 }
 
 
 //{1,2,3,1,1,1,1,3,3}
 int main(){
-    pair<int,int> x = OptimalMajorityElement(arr,n);
-    cout<<"Element="<<x.first <<"cnt="<<x.second<<"\n";
+    int x = OptimalMajorityElement(arr,n);
+    cout<<"Majority Element"<<
  
     
 }
