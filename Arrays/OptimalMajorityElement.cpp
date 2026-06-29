@@ -23,3 +23,8 @@ vector<int> OptimalMajorityElement(vector<int> arr,int n){
         }
     }
 }
+
+//{1,2,3,1,1,1,1,3,3}
+int main(){
+    
+}
