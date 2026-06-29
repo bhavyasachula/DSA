@@ -4,9 +4,16 @@ using namespace std;
 
 vector<int> arr = {1,2,3,1,1,1,1,3,3};
 int n = arr.size();
+/*
+    find the majority Element from the array;
+    {1,1,1,2,2,1}
+    Output :
+    n=size of array
+    return the element which appears n/2 times from the array
 
+    */
 // Moore Voting algorithm
-
+// the goal was this (N/2)
 pair<int,int> OptimalMajorityElement(vector<int> arr,int n){
     int el=0;
     int cnt=0;
@@ -23,7 +30,13 @@ pair<int,int> OptimalMajorityElement(vector<int> arr,int n){
         }
     }
     return {el,cnt};
+    //why this loop for checking the majority element 
+    int cnt1=0;
+    for(int j=0;j<n;j++){
+    
+    }
 }
+
 
 //{1,2,3,1,1,1,1,3,3}
 int main(){
