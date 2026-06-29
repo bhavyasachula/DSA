@@ -17,6 +17,7 @@ int n = arr.size();
 int OptimalMajorityElement(vector<int> arr,int n){
     int el=0;
     int cnt=0;
+    // this is to choose the candidate element
     for(int i=0;i<n;i++){
         if(cnt==0){
             cnt=1;
@@ -29,7 +30,7 @@ int OptimalMajorityElement(vector<int> arr,int n){
             cnt--;
         }
     }
-  
+    //this checks that is the candidate element comes  >(greater than) N/2 times
     //why this loop for checking the majority element 
     int cnt1=0;
     for(int j=0;j<n;j++){
