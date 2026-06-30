@@ -20,5 +20,9 @@ int OptimalMaximumSubArraySum(vector<int> arr,int n){
             maxi=0;
         }
     }    
-    return max;
+    return maxi;
+}
+
+int main(){
+    
 }
