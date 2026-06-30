@@ -24,5 +24,5 @@ int OptimalMaximumSubArraySum(vector<int> arr,int n){
 }
 
 int main(){
-    
+    cout<<"Maximum Subarray Sum is :"<<OptimalMaximumSubArraySum(arr,n);
 }
