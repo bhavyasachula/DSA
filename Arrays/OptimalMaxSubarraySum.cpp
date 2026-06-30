@@ -9,8 +9,15 @@ int OptimalMaximumSubArraySum(vector<int> arr,int n){
     int sum=0;
     int maxi=0;
     for(int i=0 ; i<n ;i++){
+        /*
+        traverse the array and do not consider 
+        the negative value and maintain the maxi(maximum) value 
+        */
         sum=sum+arr[i];
-        
+        /*
+        sum gets greater than maximum number 
+        then assign the sum value into maxi
+        */
         if(sum>maxi){
             maxi=sum;
         }
