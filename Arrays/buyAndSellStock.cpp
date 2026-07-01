@@ -17,5 +17,5 @@ int BuyAndSellStocks(vector<int> arr , int n){
     return profit;
 }
 int main(){
-   
+   cout<<"Max Profit is :"<<BuyAndSellStocks(arr,n);
 }
