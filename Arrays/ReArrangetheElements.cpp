@@ -10,7 +10,9 @@ vector<int> ReArrangeElements(vector<int> arr , int n){
     vector<int> reArrange(n,0);
     
     int posIndex=0; /*We are maintaining two pointers one is for postive and another is is negative pointer*/
-    int negIndex=1;
+    int negIndex=1; 
+    /*  postive index starts from 0 because of even index to put into it and
+        negative index starts from 1 because of the odd index to put negative values  */
     for(int i=0 ; i<n+1 ; i++){
         
         if(arr[i]>0){
