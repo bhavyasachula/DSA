@@ -19,10 +19,12 @@ vector<int> ReArrangeElements(vector<int> arr , int n){
             reArrange[posIndex] = arr[i];
             /*In this we cannot increase the i because i counter will go to end 
             so we need to use the seperate pointer */
+            //posIndex starts from 0 because of even indexing
             posIndex=posIndex+2;
         }
         else{
             reArrange[negIndex] = arr[i];
+            //negIndex starts from 1 because of odd indexing
             negIndex+=2;
         }
     }
