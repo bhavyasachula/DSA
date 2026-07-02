@@ -17,6 +17,8 @@ vector<int> ReArrangeElements(vector<int> arr , int n){
         
         if(arr[i]>0){
             reArrange[posIndex] = arr[i];
+            /*In this we cannot increase the i because i counter will go to end 
+            so we need to use the seperate pointer */
             posIndex=posIndex+2;
         }
         else{
