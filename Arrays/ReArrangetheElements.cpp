@@ -6,8 +6,10 @@ vector<int> arr = {4,1,-2,-5,2,-4};
 int n=arr.size();
 
 vector<int> ReArrangeElements(vector<int> arr , int n){
+    
     vector<int> reArrange(n,0);
-    int posIndex=0;
+    
+    int posIndex=0; /*We are maintaining two pointers one is for postive*/
     int negIndex=1;
     for(int i=0 ; i<n+1 ; i++){
         
