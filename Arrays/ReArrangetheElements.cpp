@@ -9,7 +9,7 @@ vector<int> ReArrangeElements(vector<int> arr , int n){
     
     vector<int> reArrange(n,0);
     
-    int posIndex=0; /*We are maintaining two pointers one is for postive*/
+    int posIndex=0; /*We are maintaining two pointers one is for postive and another is is negative pointer*/
     int negIndex=1;
     for(int i=0 ; i<n+1 ; i++){
         
