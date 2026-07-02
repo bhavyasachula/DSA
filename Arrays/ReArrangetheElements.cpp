@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//Optimal ReArrange the array into the pos neg pos neg pos neg sequence
 vector<int> arr = {4,1,-2,-5,2,-4};
 int n=arr.size();
 
