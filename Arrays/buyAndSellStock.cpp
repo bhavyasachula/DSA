@@ -10,7 +10,9 @@ int BuyAndSellStocks(vector<int> arr , int n){
     int profit=0;
     int cost;
     for(int i=1;i<n;i++){
-        cost = arr[i] - mini;
+        cost = arr[i] - mini; 
+        /* cost is the diffrence between the 
+        minimum element with the i pointer element*/
         profit = max(profit,cost);
         mini=min(mini,arr[i]);
     }   
