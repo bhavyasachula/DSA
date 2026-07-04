@@ -35,5 +35,4 @@ int main(){
     for(int it:ReArrangeElements(arr,n)){
         cout<<it<<" ";
     }
-    
 }
