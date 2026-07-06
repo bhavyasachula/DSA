@@ -5,6 +5,7 @@ using namespace std;
 vector <int> arr = {3, 3, 0, 99, -40};
 int n = arr.size();
 int isSortedAsc(vector<int> arr,int n){
+    //normal bubble sort 
     for(int i=1;i<n;i++){ 
         if(arr[i]>=arr[i-1]){   
         }
