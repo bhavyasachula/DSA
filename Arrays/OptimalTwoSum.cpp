@@ -14,7 +14,7 @@ string TwoSum(vector<int> arr , int n ,int target){
     int left=0;
     int right=n-1;
     sort(arr.begin(),arr.end());
-   
+// using two pointer app approach
     while(left < right){
         int sum = arr[left] + arr[right];
 
