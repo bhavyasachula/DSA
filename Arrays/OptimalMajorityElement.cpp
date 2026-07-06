@@ -32,8 +32,13 @@ int OptimalMajorityElement(vector<int> arr,int n){
     }
     //this checks that is the candidate element comes  >(greater than) N/2 times
     //why this loop for checking the majority element 
+    int cnt1=0;
+    for(int j=0;j<n;j++){
+        if(el==arr[j]){
+            cnt1++;
+        }
+    }
    
-    
 }
 
 //{1,2,3,1,1,1,1,3,3}
