@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> arr = {1,2,3,1,1,1,1,3,3};
+vector<int> arr = {3,2,3};
 int n = arr.size();
 /*
     find the majority Element from the array;
@@ -32,14 +32,8 @@ int OptimalMajorityElement(vector<int> arr,int n){
     }
     //this checks that is the candidate element comes  >(greater than) N/2 times
     //why this loop for checking the majority element 
-    int cnt1=0;
-    for(int j=0;j<n;j++){
-        if(el==arr[j]){
-            cnt1++;
-        }
-    }
-    if(cnt1>(n/2)) return el;
-    else return -1;
+   
+    
 }
 
 //{1,2,3,1,1,1,1,3,3}
