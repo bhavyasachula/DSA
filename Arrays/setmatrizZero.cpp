@@ -6,11 +6,12 @@ vector<vector<int>> arr =  {{1,1,1},{1,0,1},{1,1,1}};
 int n=3;
 int m=3;
 vector<vector<int>> setMatrixZero(vector<vector<int>> arr , int n,int m){
+    vector<bool> rows(n, false), cols(m, false);
     for(int i=0; i<n ; i++){
         for(int j=0 ; j<m ; j++){
             if(arr[i][j] == 0){
-                arr[i] = ;
-                arr[j] = ;
+                rows[i] = true;
+                cols[j] = true;
             }
         }
     }
