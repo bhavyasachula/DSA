@@ -8,7 +8,10 @@ int m=3;
 vector<vector<int>> setMatrixZero(vector<vector<int>> arr , int n,int m){
     for(int i=0; i<n ; i++){
         for(int j=0 ; j<m ; j++){
-            
+            if(arr[i][j] == 0){
+                arr[i] = ;
+                arr[j] = ;
+            }
         }
     }
 }
