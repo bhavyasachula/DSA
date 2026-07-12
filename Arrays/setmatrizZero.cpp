@@ -15,7 +15,7 @@ vector<vector<int>> setMatrixZero(vector<vector<int>> arr , int n,int m){
                 cols[j] = true;
             }
         }
-    }
+    } 
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
              // Mark cell (i, j) with zero if either
