@@ -1,5 +1,4 @@
 s = "the sky is blue";
+output = ""
 
-for words in s[::-1].split(' '):
-    print(words);
-
+output = s.split();
