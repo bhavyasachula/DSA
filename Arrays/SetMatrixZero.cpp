@@ -5,9 +5,9 @@ using namespace std;
 
 vector<vector<int>> arr =  {{1,1,1},{1,0,1},{1,1,1}};
 
-The Core Idea
+// The Core Idea
 
-Instead of allocating separate col[] and row[] arrays, it hijacks matrix[0][j] and matrix[i][0] as markers. The only edge case: matrix[0][0] can't serve both the first row AND first column, so col0 handles the first column separately.
+// Instead of allocating separate col[] and row[] arrays, it hijacks matrix[0][j] and matrix[i][0] as markers. The only edge case: matrix[0][0] can't serve both the first row AND first column, so col0 handles the first column separately.
 int n = 3;
 int m = 3;
 
