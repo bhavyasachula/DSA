@@ -28,8 +28,7 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
 
     for(int i=1 ; i<n ; i++){
         for(int j=1; j<m;j++){
-            check check
-        }
+=        }
     }
 }
 // matrix[i][0] = 0 → row i needs zeroing
