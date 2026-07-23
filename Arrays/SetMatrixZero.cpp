@@ -3,7 +3,7 @@
 #include<algorithm>
 using namespace std;
 
-vector<vector<int>> arr =  {{1,1,1},{1,0,1},{1,1,1}};
+vector<vector<int>> matrix =  {{1,1,1},{1,0,1},{1,1,1}};
 
 // The Core Idea
 
@@ -11,10 +11,10 @@ vector<vector<int>> arr =  {{1,1,1},{1,0,1},{1,1,1}};
 int n = 3;
 int m = 3;
 
-vector<vector<int>> SetMatrixZero(vector<vector<int>>){
+vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
     for(int i = 0;i<n;i++){
         for(int j=0;j<m;j++){
-        //   continuess..
+            if(matrix[])
         }
     }
 }
