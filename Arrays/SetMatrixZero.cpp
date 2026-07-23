@@ -14,7 +14,9 @@ int m = 3;
 vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
     for(int i = 0;i<n;i++){
         for(int j=0;j<m;j++){
-            if(matrix[])
+            if(matrix[i][j] == 0){
+                matrix[i][0] = 0;
+            }
         }
     }
 }
