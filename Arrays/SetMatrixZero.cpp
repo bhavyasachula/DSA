@@ -19,6 +19,9 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
                 if(j!=0){
                     matrix[0][j] = 0;
                 }
+                else{
+                    col0 = 0;
+                }
             }
         }
     }
