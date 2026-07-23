@@ -25,6 +25,10 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
             }
         }
     }
+
+    for(int i=1 ; i<n ; i++){
+        
+    }
 }
 // matrix[i][0] = 0 → row i needs zeroing
 // matrix[0][j] = 0 → col j needs zeroing
