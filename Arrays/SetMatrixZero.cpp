@@ -36,6 +36,7 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
     }
     }
 }
-// matrix[i][0] = 0 → row i needs zeroing
-// matrix[0][j] = 0 → col j needs zeroing
-// col0 = 0 → col 0 needs zeroing (tracked separately)
+
+int main(){
+    
+}
