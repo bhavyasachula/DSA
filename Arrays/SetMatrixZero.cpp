@@ -12,6 +12,7 @@ int n = 3;
 int m = 3;
 int col0 = 1;
 vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
+  
     for(int i = 0;i<n;i++){
         for(int j=0;j<m;j++){
             if(matrix[i][j] == 0){
