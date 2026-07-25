@@ -17,7 +17,7 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
             if(matrix[i][j] == 0){
                 matrix[i][0] = 0;
                 if(j!=0){
-                    matrix[0][j] = 0;
+                 matrix[0][j] = 0;
                 }
                 else{
                     col0 = 0;
@@ -35,8 +35,17 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
             }
     }
     }
+    return matrix;
 }
 
 int main(){
+
+    vector<vector<int>> matrix1 =  SetMatrixZero(matrix);
+    for(int i=0 ; i<n ;i++){
+        for(int j=0 ; j<m ; j++){
+            cout<<matrix1[i][j];
+        }
+        cout<<"\n";
+    }
     
 }
