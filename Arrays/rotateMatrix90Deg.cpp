@@ -2,4 +2,4 @@
 #include <vector>
 using namespace std;
 
-int rotateMatrixBy90()
+int rotateMatrixBy90(vector)
