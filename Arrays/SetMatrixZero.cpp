@@ -36,12 +36,11 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
             }
     }
     }
-     if(matrix[0][0]){
-        for(int i = 0 ; i<n ; i++){
+     if(matrix[0][0] == 0){
+        for(int j = 0 ; j<n ; j++){
             matrix[0][j] = 0;
         }
-
-     }
+    }
      if()
     return matrix;
 }
