@@ -36,8 +36,15 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
             }
     }
     }
+     if(matrix[0][0]){
+        for(int i = 0 ; i<n ; i++){
+            
+        }
+     }
     return matrix;
 }
+
+   
 
 int main(){
 
