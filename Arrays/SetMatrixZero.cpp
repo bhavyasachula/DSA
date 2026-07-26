@@ -41,7 +41,11 @@ vector<vector<int>> SetMatrixZero(vector<vector<int>> martix){
             matrix[0][j] = 0;
         }
     }
-     if()
+     if(col0 == 0){
+        for(int i=0 ; i<n ; i++){
+            matrix[i][0] = 0;
+        }
+     }
     return matrix;
 }
 
