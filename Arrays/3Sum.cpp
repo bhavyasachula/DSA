@@ -2,7 +2,10 @@
 #include <vector>
 #include <set>
 using namespace std;
-
+/*
+Three sum problem statement : 
+-> Get unique triplets from the array which sum up to 0 means [ [-1,0,1] sums = 0 ]
+*/
 vector<int> arr = {-1,1,2,7,6,4};
 set<vector<int>> st;
 int n = arr.size();
