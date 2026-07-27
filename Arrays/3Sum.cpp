@@ -10,7 +10,7 @@ Three sum problem statement :
 vector<int> arr = {-1,1,2,7,6,4};
 set<vector<int>> st;
 int n = arr.size();
-int ThreeSum(vector<int> arr,int n){
+vector<vector<int>> ThreeSum(vector<int> arr,int n){
     for(int i=0; i<n ; i++){
         for(int j=i+1 ; j<n ; j++){
             for(int k=j+1 ; k<n ; k++){
@@ -22,9 +22,11 @@ int ThreeSum(vector<int> arr,int n){
             }
         }
     }
-    vector<>
+    vector<vector<int>> ans(st.begin(),st.end());
+    return ans;
 }
 
 int main(){
-    int ans = ThreeSum(arr,n);
+    vector<vector<int>> ans = ThreeSum(arr,n);
+    for()
 }
