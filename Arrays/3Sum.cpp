@@ -33,6 +33,6 @@ int main(){
         for(int x : triplet){
             cout<< x <<" ";
         }
-        cout<<"]\n";
+        cout<<"] \n";
     }
 }
