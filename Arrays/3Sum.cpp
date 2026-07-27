@@ -28,10 +28,10 @@ vector<vector<int>> ThreeSum(vector<int> arr,int n){
 
 int main(){
     vector<vector<int>> ans = ThreeSum(arr,n);
-    for(const auto& triplet:ans ){
+    for(const auto& triplet : ans ){
         cout<<"[";
         for(int x : triplet){
-            cout<<n<<"\n";
+            cout<< x <<"\n";
         }
         cout<<"]";
     }
