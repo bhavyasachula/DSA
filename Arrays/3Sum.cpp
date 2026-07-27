@@ -7,7 +7,7 @@ using namespace std;
 Three sum problem statement : 
 -> Get unique triplets from the array which sum up to 0 means [ [-1,0,1] sums = 0 ]
 */
-vector<int> arr = {-1,1,2,7,6,4};
+vector<int> arr = {-1, 0, 1, 2, -1, -4};
 set<vector<int>> st;
 int n = arr.size();
 vector<vector<int>> ThreeSum(vector<int> arr,int n){
@@ -31,8 +31,8 @@ int main(){
     for(const auto& triplet : ans ){
         cout<<"[";
         for(int x : triplet){
-            cout<< x <<"\n";
+            cout<< x <<" ";
         }
-        cout<<"]";
+        cout<<"]\n";
     }
 }
