@@ -5,7 +5,7 @@
 using namespace std;
 
 /*
-brute approach: n^3
+brute approach: n^3 -> previous logic arr[i]+arr[j]+arr[k] == 0
 Better approach: n^2  
     First we need to remove the third loop that we are using in brute force approach
 */
