@@ -6,7 +6,7 @@ using namespace std;
 
 /*
 brute approach: n^3 -> previous logic arr[i]+arr[j]+arr[k] == 0
-Better approach: n^2  
+Better approach: n^2  -> new logic arr[k] = -(arr[i]+arr[j]) moved i and j arr element to other side
     First we need to remove the third loop that we are using in brute force approach
 */
 vector<int> arr = {-1, 0, 1, 2, -1, -4};
