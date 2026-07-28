@@ -19,5 +19,5 @@ vector<vector<int>> Better3Sum(vector<int> arr , int n){
     }
 }
 int main(){
-    
+    vector<vector<int>> ans = Better3Sum(arr,n);
 }
