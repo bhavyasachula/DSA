@@ -9,5 +9,8 @@ brute approach: n^3
 Better approach: n^2  
     First we need to remove the third loop that we are using in brute force approach
 */
+vector<int> arr = {-1, 0, 1, 2, -1, -4};
+int n = arr.size();
+vector<vector<int>> Better3Sum(vector<int> arr , int n){
 
-vector<vector<int>> Better3Sum(vector<int> arr)
+}
