@@ -5,5 +5,6 @@
 using namespace std;
 
 /*
-Better approach :-  
+brute approach: n^3
+Better approach: n^2  
 */
