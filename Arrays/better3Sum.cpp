@@ -3,3 +3,7 @@
 #include <algorithm>
 #include <set>
 using namespace std;
+
+/*
+Better approach :-  
+*/
