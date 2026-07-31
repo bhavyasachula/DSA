@@ -3,12 +3,13 @@
 #include <algorithm>
 #include <set>
 using namespace std;
-
+ 
+//GOAL: Find all unique triplets [a, b, c] where a + b + c = 0
 /*Problem statement:
     1) U have to make triplets that sums up to zero.
         array can have duplicate values  → [-1, -1, 0, 1, 2]
         a triplet can have repeat values → [-1, -1, 2] is valid
-        2) No duplicate triplets
+        2) No duplicate triplets.
         
     what matters is that the same combination doesn't appear twice
 */
