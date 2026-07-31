@@ -4,7 +4,9 @@
 #include <set>
 using namespace std;
 
-/*Problem statement:-*/
+/*Problem statement:
+    1) U have to make triplet that sums up to zero
+*/
 /*
 brute approach: n^3 -> previous logic arr[i]+arr[j]+arr[k] == 0
 Better approach: n^2  -> new logic arr[k] = -(arr[i]+arr[j]) moved i and j arr element to other side
