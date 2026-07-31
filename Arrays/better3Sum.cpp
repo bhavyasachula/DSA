@@ -5,7 +5,8 @@
 using namespace std;
 
 /*Problem statement:
-    1) U have to make triplet that sums up to zero
+    1) U have to make triplets that sums up to zero.
+    2) No duplicate triplets
 */
 /*
 brute approach: n^3 -> previous logic arr[i]+arr[j]+arr[k] == 0
