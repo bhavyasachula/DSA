@@ -7,7 +7,7 @@ using namespace std;
 /*Problem statement:
     1) U have to make triplets that sums up to zero.
     2) No duplicate triplets
-    what matters is same combination doesn't appear twice
+    what matters is that the same combination doesn't appear twice
 */
 /*
 brute approach: n^3 -> previous logic arr[i]+arr[j]+arr[k] == 0
