@@ -6,6 +6,7 @@ using namespace std;
 
 /*Problem statement:
     1) U have to make triplets that sums up to zero.
+        array can have duplicate values  → [-1, -1, 0, 1, 2]
     2) No duplicate triplets
     what matters is that the same combination doesn't appear twice
 */
