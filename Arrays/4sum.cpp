@@ -2,12 +2,12 @@
 #include <vector>
 #include <set>
 using namespace std;
+vector<int> arr = {-1, 0, 1, 2, -1, -4};
+vector<vector<int>> FourSum(vector<int> arr){
 
-vector<vector<int>> FourSum(vector<vector<int>> arr){
-
-    return arr;
+    
 }
 
 int main(){
-    vector<vector<int>> result ;
+    vector<vector<int>> result = FourSum(arr);
 }
