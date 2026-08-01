@@ -7,3 +7,7 @@ vector<vector<int>> FourSum(vector<vector<int>> arr){
 
     return arr;
 }
+
+int main(){
+    
+}
