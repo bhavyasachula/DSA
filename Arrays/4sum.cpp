@@ -14,5 +14,5 @@ vector<vector<int>> FourSum(vector<int> arr,int n){
 }
 
 int main(){
-    vector<vector<int>> result = FourSum(arr);
+    vector<vector<int>> result = FourSum(arr,n);
 }
