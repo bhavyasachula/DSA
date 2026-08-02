@@ -8,7 +8,7 @@ int n = arr.size();
 //Approach:Sort + two outer loops + two pointers inside
 //time complexity : O(n^3)
 // Key idea: Same as 3Sum but with one extra loop. Skip duplicates at all three levels (i, j, and after finding a match) to avoid repeated quadruplets.
-vector<vector<int>> FourSum(vector<int> arr){
+vector<vector<int>> FourSum(vector<int> arr,int n){
 
     
 }
