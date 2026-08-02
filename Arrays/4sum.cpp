@@ -3,7 +3,7 @@
 #include <set>
 using namespace std;
 vector<int> arr = {-1, 0,1,1, 2, -1, -4};
-//4sum
+//4sum : find all unique quadruplets in an array that add up to a target.
 vector<vector<int>> FourSum(vector<int> arr){
 
     
