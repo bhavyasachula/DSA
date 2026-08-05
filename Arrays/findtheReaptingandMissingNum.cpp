@@ -2,4 +2,4 @@
 #include <vector>
 using namespace std;
 
-vector<int> findRepeatingAndMissingNum()
+vector<int> findRepeatingAndMissingNum(vector<int> arr)
