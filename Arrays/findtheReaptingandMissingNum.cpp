@@ -8,5 +8,5 @@ vector<int> findRepeatingAndMissingNum(vector<int> arr,int n){
     //logic here
 }
 int main(){
-    vector<int> result = findRepeatingAndMissingNum()
+    vector<int> result = findRepeatingAndMissingNum(arr)
 }
