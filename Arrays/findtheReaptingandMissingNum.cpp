@@ -7,3 +7,6 @@ vector<int> findRepeatingAndMissingNum(vector<int> arr,int n){
     //find repeating and missing num
     //logic here
 }
+int main(){
+    
+}
