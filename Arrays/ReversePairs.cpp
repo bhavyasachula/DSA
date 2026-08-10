@@ -2,7 +2,9 @@
 #include <vector>
 #include<algorithm>
 using namespace std;
-//reverse pairs : 
+/*reverse pairs : 
+    first - 
+*/
 vector<int> reversePair(){
 
 }
