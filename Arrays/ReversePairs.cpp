@@ -4,7 +4,7 @@
 using namespace std;
 /*reverse pairs : 
     first - need to know about merge sort.
-    second - about Count inversion
+    second - need about Count inversion 
 */
 vector<int> reversePair(){
 
