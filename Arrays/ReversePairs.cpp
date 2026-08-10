@@ -4,6 +4,7 @@
 using namespace std;
 /*reverse pairs : 
     first - need to know about merge sort.
+    second 
 */
 vector<int> reversePair(){
 
