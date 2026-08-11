@@ -6,12 +6,14 @@ using namespace std;
 
 vector<int> arr = {-1, 0, 1, 1, 2, -1, -4};
 int n =  arr.size();
-sort(arr.begin(), arr.end());
 
 set<vector<int>> result ;
 vector<vector<int>> Diff3sum(vector<vector<int>> arr, int n){
-    for(int i=0 ; i < n ; i++){
-
+    sort(arr.begin(), arr.end());
+    for(int i=0 ; i < n-2 ; i++){
+        int left = i+1;
+        int right = arr.size()-1;
+        while
     }
     return arr;
 }
