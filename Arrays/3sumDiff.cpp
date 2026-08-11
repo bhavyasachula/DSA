@@ -5,6 +5,12 @@ using namespace std;
 
 vector<int> arr = {-1, 0, 1, 1, 2, -1, -4};
 int n =  arr.size();
-vector<vector<int>> Diff3sum(){
+
+vector<vector<int>> Diff3sum(vector<int> arr , int n){
+
+    return arr;
+}
+
+int main(){
 
 }
