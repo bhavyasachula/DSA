@@ -2,3 +2,7 @@
 #include <vector>
 #include <set>
 using namespace std;
+
+vector<vector<int>> Diff3sum(){
+    
+}
