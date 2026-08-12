@@ -11,11 +11,15 @@ set<vector<int>> result ; // Set DataStructure for getting unique elements
 vector<vector<int>> Diff3sum(vector<int> arr, int n){
     sort(arr.begin(), arr.end());
     for(int i=0 ; i < n-2 ; i++){  // we need two loops obviouslyyyyyyyyyy
-        int left = i+1;
-        int right = arr.size()-1;
+
+        int left = i+1; // arr[i] will be seprate after two pointer // left - starts from next element from arr[i]
+        int right = arr.size()-1; // starts from end of array
 
         while(left<right){
-
+                /*
+                arr[i] will be still as for loop moves or we can say i moves the elements move and 
+                array srinks cuz no repeated triplets and left and right will move left or right 
+                */   
         int sum = arr[i] + arr[left] + arr[right];
 
             if(sum == 0){ 
