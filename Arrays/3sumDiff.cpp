@@ -29,4 +29,7 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
 
 int main(){
     
+    for(auto &type : Diff3sum(arr,n)){
+        
+    }
 }
