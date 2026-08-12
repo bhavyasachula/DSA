@@ -19,7 +19,15 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
         int sum = arr[i] + arr[left] + arr[right];
 
             if(sum == 0){ 
-                result.insert(arr);
+                result.insert({arr[i],arr[left],arr[right]});
+                left++;
+                right--;
+            }
+            else if(sum<0){
+                left++;
+            }
+            else{
+                right--;
             }
         }
     }
