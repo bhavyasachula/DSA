@@ -25,7 +25,7 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
             if(sum == 0){ 
                 result.insert({arr[i],arr[left],arr[right]});
                 left++;
-                right--;
+                right--; // Shrinks the array by moving both the pointers inward so we dont find any duplicates
             }
             else if(sum<0){
                 left++;
