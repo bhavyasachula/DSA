@@ -33,7 +33,7 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
                  /* because the goal is to sum == 0*/
             }
             else{
-                right--;
+                right--;/**/
             }
         }
     }
