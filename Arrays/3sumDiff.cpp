@@ -29,7 +29,7 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
             }
             else if(sum<0){
                 left++; /* see array is sorted so we have used
-                 two pointers so if the value goes less than 0 so w */
+                 two pointers so if the value goes less than 0 so we move the left  */
             }
             else{
                 right--;
