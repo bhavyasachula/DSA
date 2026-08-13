@@ -37,7 +37,7 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
             }
         }
     }
-    vector<vector<int>> myanswer(result.begin(),result.end());
+    vector<vector<int>> myanswer(result.begin(),result.end()); /**/
     return myanswer;
 }
 
