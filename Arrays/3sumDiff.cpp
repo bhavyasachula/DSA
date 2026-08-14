@@ -38,7 +38,7 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
         }
     }
     vector<vector<int>> myanswer(result.begin(),result.end()); /*Converting the set into vector of vector because of the return statement*/
-    return myanswer; /*returned */
+    return myanswer; /*returned the converted set */
 }
 
 int main(){
