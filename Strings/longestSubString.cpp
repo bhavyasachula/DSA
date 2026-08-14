@@ -3,3 +3,6 @@
 #include <algorithm>
 using namespace std;
 
+int LongestSubString(){
+
+}
