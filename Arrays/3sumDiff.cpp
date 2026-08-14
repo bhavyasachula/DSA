@@ -42,7 +42,9 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
 }
 
 int main(){
-    //Auto keyword will automatically know the return type
+    /*Auto keyword will automatically know the return type*/
+    /* & will use refrence of value it does not create a copy of it 
+    work with the original value*/
     for(auto &result : Diff3sum(arr,n)){
         for(auto &ans : result){
             cout<<ans<<" ";
