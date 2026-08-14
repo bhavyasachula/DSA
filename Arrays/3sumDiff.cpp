@@ -42,7 +42,7 @@ vector<vector<int>> Diff3sum(vector<int> arr, int n){
 }
 
 int main(){
-    
+    //
     for(auto &result : Diff3sum(arr,n)){
         for(auto &ans : result){
             cout<<ans<<" ";
