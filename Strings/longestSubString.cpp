@@ -8,3 +8,6 @@ int LongestSubString(){
     return count;
 }
 
+int main(){
+    cout<<"Count is :" <<LongestSubString();
+}
