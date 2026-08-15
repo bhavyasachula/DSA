@@ -8,5 +8,6 @@ using namespace std;
 //Dutch national flag
 
 void SortColor(vector<int> nums){
-
+int start = 0;
+int
 }
