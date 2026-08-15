@@ -12,5 +12,7 @@ void SortColor(vector<int> nums,int n){
 int start = 0;
 int midptr = 0;
 int end = n-1;
-
+while(midptr <= end){
+    s
+}
 }
