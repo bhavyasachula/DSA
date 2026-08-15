@@ -13,6 +13,20 @@ int start = 0;
 int midptr = 0;
 int end = n-1;
 while(midptr <= end){
-    s
+    switch(nums[n]){
+        case 0:
+            swap(start,midptr);
+            start++;
+            midptr++;
+            break;
+        case 1:
+            midptr++;
+            break;
+        case 2:
+            swap(start,end);
+            end--;
+            break;
+    }
 }
+
 }
