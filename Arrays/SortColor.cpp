@@ -5,7 +5,8 @@
 using namespace std;
 
 //inplace sorting
-// 
+//Dutch national flag
+
 void SortColor(vector<int> nums){
 
 }
