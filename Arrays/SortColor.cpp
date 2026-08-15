@@ -6,9 +6,9 @@ using namespace std;
 
 //inplace sorting
 //Dutch national flag
-vector<int> arr = {2,0,2,1,1,0};
-int n = 
-void SortColor(vector<int> nums){
+vector<int> nums = {2,0,2,1,1,0};
+int n = nums.size();
+void SortColor(vector<int> nums,int n){
 int start = 0;
 int
 }
