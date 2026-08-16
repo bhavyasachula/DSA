@@ -25,7 +25,8 @@ while(midptr <= end){
             midptr++;
             break;
         case 1:
-            midptr++;
+        // if you encounter 1 just mid++
+           midptr++;
             break;
         case 2:
         /*end pointer: it is also a stable pointer it only get swapped with mid or start
