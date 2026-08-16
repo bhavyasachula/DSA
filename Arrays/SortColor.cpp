@@ -24,7 +24,7 @@ while(midptr <= end){
             midptr++;
             break;
         case 2:
-            swap(nums[],nums[end]);
+            swap(nums[midptr],nums[end]);
             end--;
             break;
     }
