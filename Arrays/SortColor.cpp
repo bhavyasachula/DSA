@@ -28,6 +28,8 @@ while(midptr <= end){
             midptr++;
             break;
         case 2:
+        /*end pointer: it is also a stable pointer it only get swapped with mid or start
+         */
             swap(nums[midptr],nums[end]);
             end--;
             break;
