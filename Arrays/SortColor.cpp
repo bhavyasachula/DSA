@@ -13,7 +13,7 @@ void SortColor(vector<int> nums,int n){
 int start = 0;
 int midptr = 0;
 int end = n-1;
-while(start <= end){
+while(midptr <= end){
     switch(nums[start]){
         case 0:
             swap(nums[start],nums[midptr]);
