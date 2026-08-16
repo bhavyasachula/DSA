@@ -13,10 +13,10 @@ void SortColor(vector<int> nums,int n){
 int start = 0;
 int midptr = 0;
 int end = n-1;
-while(midptr <= end){
-    switch(nums[n]){
+while(start <= end){
+    switch(nums[start]){
         case 0:
-            swap(start,midptr);
+            swap(nums[start],nums[midptr]);
             start++;
             midptr++;
             break;
@@ -24,7 +24,7 @@ while(midptr <= end){
             midptr++;
             break;
         case 2:
-            swap(start,end);
+            swap(nums[start],nums[end]);
             end--;
             break;
     }
