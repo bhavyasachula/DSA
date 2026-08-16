@@ -14,8 +14,11 @@ int start = 0;
 int midptr = 0;
 int end = n-1;
 while(midptr <= end){
-    switch(nums[midptr]){ // here midptr is scanning pointer
+    switch(nums[midptr]){ 
+/* here midptr is moving pointer so we have written 
+    here midptr where i goes through the whole array*/
         case 0:
+        
             swap(nums[start],nums[midptr]);
             start++;
             midptr++;
