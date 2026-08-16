@@ -14,7 +14,7 @@ int start = 0;
 int midptr = 0;
 int end = n-1;
 while(midptr <= end){
-    switch(nums[midptr]){ // 
+    switch(nums[midptr]){ // here midptr is scanning pointer
         case 0:
             swap(nums[start],nums[midptr]);
             start++;
