@@ -18,8 +18,7 @@ while(midptr <= end){
 /* here midptr is moving pointer so we have written 
     here midptr where i goes through the whole array*/
         case 0:
-        /*start pointer : its work is to get swapped with the mid or end pointer
-        */
+        /*start pointer : its work is to get swapped with the mid or end pointer*/
             swap(nums[start],nums[midptr]);
             start++;
             midptr++;
